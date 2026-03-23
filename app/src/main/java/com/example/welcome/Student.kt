@@ -1,11 +1,10 @@
-// com/example/welcomeapp/model/Student.kt
-package com.example.welcomeapp.model
+package com.example.welcome
 
 data class Student(
     val id: Int,
     val name: String,
-    val regNo: String,
-    val course: String,
-    val photoRes: Int,
-    val isVerified: Boolean = true
+    val regNumber: String,
+    val programme: String,
+    val profileImageId: Int, // Resource ID (e.g., R.drawable.female_student)
+    var isVerified: Boolean = false
 )
